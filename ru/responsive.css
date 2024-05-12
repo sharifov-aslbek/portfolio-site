@@ -1,0 +1,420 @@
+/* Responsive CSS file styles defined for smaller width devices */
+/* CSS for tablet devices */
+@media (max-width:1240px) {
+	.hero {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.hero .imgContent {
+		width: 220px;
+		height: 200px;
+	}
+
+	.hero .imgContent img {
+		/* position: absolute;
+		top: 100px; */
+		/* margin-left: 180px; */
+		width: 220px;
+		height: 200px;
+		object-fit: cover;
+		border-radius: 50%;
+		border: 2px solid #28617f;
+		margin-left: 47px;
+	}
+
+	.hero .intro {
+		margin-top: 50px;
+	}
+
+}
+
+@media (max-width:1005px) {
+	.icon {
+		width: 70px;
+		height: 70px;
+	}
+
+	.small-para {
+		font-size: 10px;
+	}
+
+	.my-card {
+		height: 450px;
+	}
+}
+
+@media (max-width:955px) {
+	.logo {
+		padding: 0 3rem;
+	}
+
+	.hamburger {
+		display: block;
+		padding: 0 3rem;
+	}
+
+	.menu {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		right: 0;
+		/* padding: 0 3rem; */
+		top: 75px;
+		background: #28617f;
+		display: none;
+		transition: all 0.25s;
+	}
+
+	.menu .menu-list {
+		height: 60%;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.about {
+		margin-top: 30px;
+		flex-direction: column;
+	}
+
+	.about-text {
+		order: 1;
+		text-align: center;
+	}
+
+	.about .about-image {
+		order: 0;
+		/* padding-left: 150px; */
+		padding-bottom: 20px;
+		padding-right: 40px;
+		margin-left: 80px;
+		padding-top: 90px;
+	}
+	
+	.about .about-image img {
+		width: 200px;
+		height: 190px;
+	}
+}
+
+@media (max-width:828px) {
+	.gallery-container .gallery-item {
+		width: 250px;
+	}
+
+	.about .about-image {
+		margin-left: 55px;
+	}
+}
+
+@media (max-width:868px) {
+
+	.slider {
+		width: 700px;
+	}
+}
+
+@media (max-width:720px) {
+	.gallery-container .gallery-item {
+		width: 200px;
+		margin-left: 70px;
+	}
+
+	.slider {
+		width: 600px;
+	}
+
+	.slider .btns {
+		gap: 20px;
+	}
+
+	.slider .btns .dots {
+		gap: 7px;
+		margin-right: 25px;
+	}
+
+
+	
+}
+
+
+@media (max-width:550px) {
+	.gallery-container .gallery-item {
+		width: 200px;
+		margin-left: 60px;
+	}
+
+	.formSection .form {
+		width: 400px;
+		height: 500px;
+	}
+}
+
+
+@media (max-width:618px) {
+	.my-heading {
+		font-size: 30px;
+	}
+
+	.greet-heading {
+		font-size: 17px;
+	}
+
+	.hero .intro {
+		width: 400px;
+	}
+
+	.slider {
+		width: 500px;
+	}
+
+}
+
+@media(max-width:520px) {
+	.slider {
+		width: 400px;
+	}
+
+	.slider .btns {
+		gap: 6px;
+		margin-top: 10px;
+	}
+
+	.slider .btns .btn {
+		padding: 10px 25px;
+		font-size: 15px;
+	}
+
+	.slider .btns .dots .dot {
+		width: 7px;
+		height: 7px;
+	}
+
+}
+
+@media(max-width:420px) {
+	.slider .content {
+		width: 300px;
+		height: 300px;
+	}
+
+	.slider {
+		width: 350px;
+	}
+
+	.slider .content img {
+		width: 300px;
+		height: 300px;
+	}
+
+}
+
+@media (max-width:440px) {
+
+	.formSection .form {
+		width: 330px;
+	}
+}
+
+@media (max-width:410px) {
+	.my-heading {
+		font-size: 25px;
+	}
+
+	.greet-heading {
+		font-size: 14px;
+	}
+
+	.hero .intro {
+		width: 350px;
+	}
+}
+
+@media (max-width:390px) {
+	.my-heading {
+		font-size: 22px;
+	}
+
+	.greet-heading {
+		font-size: 12px;
+	}
+
+	.hero .intro {
+		width: 330px;
+	}
+
+	.slider {
+		width: 300px;
+	}
+
+	.slider .btns {
+		gap: 0px;
+	}
+
+
+	.footer-menu {
+		width: 300px;
+	}
+
+	.formSection .form {
+		width: 310px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 820px) {
+
+	.portfolio {
+		padding: 0;
+	}
+
+	.about .about-text {
+		padding: 2rem;
+	}
+
+	.about .about-image img {
+		padding: 2rem;
+	}
+
+	.services {
+		padding: 0;
+	}
+
+	.my-row {
+		gap: 10px;
+	}
+
+	.my-row .my-col {
+		padding: 0px 20px;
+	}
+
+}
+
+
+/* CSS for mobile devices */
+@media screen and (min-width: 280px) and (max-width: 576px) {
+
+	.hero {
+		justify-content: center;
+		color: black;
+	}
+
+	.my-heading {
+		font-size: 22px;
+	}
+
+	.greet-heading {
+		font-size: 15px;
+	}
+
+	.sub-heading {
+		color: gray;
+	}
+
+	.hero .intro-buttons {
+		gap: 20px;
+	}
+
+	.btn {
+		padding: 10px 30px;
+	}
+
+	.logo {
+		padding: 0 2rem;
+	}
+
+	.menu {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		right: 0;
+		top: 75px;
+		background: #28617f;
+		display: none;
+		transition: all 0.25s;
+	}
+
+	
+
+	.hamburger {
+		display: block;
+		padding: 0 2rem;
+	}
+
+	.portfolio {
+		padding: 0;
+	}
+
+	.about {
+		flex-direction: column;
+	}
+
+	.about .about-text {
+		width: 90%;
+		margin-top: 50px;
+		padding: 1rem;
+	}
+
+
+
+	.services {
+		padding: 0;
+	}
+
+	.my-row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: column;
+		margin: 2rem 0;
+		gap: 1rem;
+	}
+
+	.my-row .my-col {
+		text-align: center;
+		width: 90%;
+	}
+
+	.contact {
+		padding: 0;
+	}
+
+	.contact-content {
+		flex-direction: column;
+		align-items: center;
+		gap: 2rem;
+	}
+
+	.contact-form-container {
+		width: 80%;
+	}
+
+	.contact-form .form-controls {
+		width: 100%;
+	}
+
+	.contact-form .form-btn {
+		width: 100%;
+	}
+
+	.contact-details {
+		width: 80%;
+	}
+
+	.footer-menu {
+		padding: 0 0rem;
+		width: 320px;
+	}
+
+	.footer-list-items {
+		margin: 7px;
+	}
+
+	.footer-menu-list {
+		margin-right: 50px;
+	}
+
+
+}
